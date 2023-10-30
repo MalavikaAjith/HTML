@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <form action="" >
+        <label for="user">Username:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" name="pwd" id="pwd"><br><br>
+        <label for="coe">City of <br> Employment:</label>
+        <input type="text" name="coe" id="coe"><br><br>
+        <label for="server">Wed server:</label>
+        <select name="server" id="server">
+            <option value="">-Choose a server-</option>
+        </select>
+        
+        <p>Please specify your role:</p>
+        <input type="radio" id="role" name="role" style="color: blueviolet;">
+        <label for="admin">Admin</label><br>
+        <input type="radio" id="role" name="role">
+        <label for="engineer">Engineer</label><br>
+        <input type="radio" id="role" name="role">
+        <label for="manager">Manager</label><br>
+        <input type="radio" id="role" name="role">
+        <label for="guest">Guest</label><br><br>
+        
+        <p>Single Sign-on to the following:</p>
+        <input type="checkbox" name="sign" id="sign">
+        <label for="sign">Mail</label><br>
+        <input type="checkbox" name="sign" id="sign">
+        <label for="sign" style="color: aqua;">Payroll</label><br>
+        <input type="checkbox" name="sign" id="sign" style="color: blueviolet;">
+        <label for="sign">Self-service</label><br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+
+    </form>
+    
+</body>
+</html>
